@@ -1,5 +1,5 @@
 *{
-    
+
 }
 
 body{
@@ -25,12 +25,44 @@ h1{
     color: #6e7ea9;
     text-transform: uppercase;
     font-weight: bold;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
 }
+
+.btn-secondary{
+    color:grey;
+    background-color: #cbdbe8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.btn-primary{
+    color:white;
+    background-color: blue;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 21px 30px;
+    border-radius: 30px;
+
+}
+
 
 .btn-free{
     color: #fff;
     font-weight: 400;
     background-color: blue;
+    padding: 20px 50px;
+    letter-spacing: 1.7px;
+}
+
+.btn-group a + a {
+    margin-left: 15px;
 }
 
 .grid h2{
